@@ -21,3 +21,9 @@
 | Autentykacja | Azure AD | Zarządzanie autoryzacją użytkowników |
 | Sieć | Virtual Network | Komunikacja między komponentami |
 | Monitoring | Application Insights | Monitoring i diagnostyka |
+
+## Status Projektu i Dokumentacja
+* [x] **Artefakt 1:** Zaplanowano strukturę folderów i diagram C4 (dostępny w `/docs`).
+* [ ] **Artefakt 2:** Konfiguracja środowisk Docker (w trakcie...).
+
+> **Informacja:** Ten plik będzie ewoluował. W kolejnych etapach dodamy tutaj sekcje 'Quick Start', opis zmiennych środowiskowych oraz instrukcję wdrożenia (CI/CD).
