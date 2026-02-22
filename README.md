@@ -24,6 +24,6 @@
 
 ## Status Projektu i Dokumentacja
 * [x] **Artefakt 1:** Zaplanowano strukturę folderów i diagram C4 (dostępny w `/docs`).
-* [ ] **Artefakt 2:** Konfiguracja środowisk Docker (w trakcie...).
+* [x] **Artefakt 2:** Konfiguracja środowisk Docker (Dockerfile dla Frontend i Backend, docker-compose.yml).
 
 > **Informacja:** Ten plik będzie ewoluował. W kolejnych etapach dodamy tutaj sekcje 'Quick Start', opis zmiennych środowiskowych oraz instrukcję wdrożenia (CI/CD).
