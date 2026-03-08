@@ -25,5 +25,7 @@
 ## Status Projektu i Dokumentacja
 * [x] **Artefakt 1:** Zaplanowano strukturę folderów i diagram C4 (dostępny w `/docs`).
 * [x] **Artefakt 2:** Konfiguracja środowisk Docker (Dockerfile dla Frontend i Backend, docker-compose.yml).
+* [x] **Artefakt 3:** Działająca warstwa prezentacji (inicjalizacja React + Vite)
+* [X] **Artefakt 4:** Działająca warstwa backendu (Swagger)
 
 > **Informacja:** Ten plik będzie ewoluował. W kolejnych etapach dodamy tutaj sekcje 'Quick Start', opis zmiennych środowiskowych oraz instrukcję wdrożenia (CI/CD).

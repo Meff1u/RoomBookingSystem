@@ -1,16 +1,11 @@
 import { useEffect, useState } from 'react';
-import React from 'react';
-
 import api from '../services/api';
-
 interface CloudTask {
     id: number;
     name: string;
     isCompleted: boolean;
-
 }
-
-export const Dashboard: React.FC = () => {
+const Dashboard = () => {
     const [items, setItems] = useState<CloudTask[]>([]);
     const [error, setError] = useState("");
     useEffect(() => {
@@ -20,7 +15,7 @@ export const Dashboard: React.FC = () => {
             })
             .catch((err: any) => {
                 console.error("Szczegóły błędu:", err);
-                setError("Błąd połączenia z API. Sprawdź, czy kontener cloud-backend działa na porcie 8081.");
+                setError("Błąd połączenia z API. Sprawdź, czy kontenercloud-backend działa na porcie8081.");
             });
     }, []);
     return (
@@ -51,6 +46,6 @@ export const Dashboard: React.FC = () => {
             </div>
         </div>
     );
-};
+}
 
 export default Dashboard;
